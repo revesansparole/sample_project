@@ -15,6 +15,9 @@
         "description": "belle petite description", 
         "keywords": []
     }, 
+    "github": {
+        "project": "{{key, base.pkgname}}"
+    }, 
     "license": {
         "name": "cecill-c", 
         "organization": "organization", 

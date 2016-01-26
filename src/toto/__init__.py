@@ -5,5 +5,5 @@ __version__ = version.__version__
 # }}
 
 # {{pkglts base2,
-
+'github'
 # }}
