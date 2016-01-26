@@ -1,0 +1,5 @@
+{
+    "console_scripts": [
+        "toto = toto.cli:main"
+    ]
+}

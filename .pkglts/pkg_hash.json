@@ -1,0 +1,63 @@
+{
+    "./.coverage": [], 
+    "./.coveragerc": [], 
+    "./AUTHORS.rst": [], 
+    "./CONTRIBUTING.rst": [], 
+    "./HISTORY.rst": [], 
+    "./LICENSE": [
+        "K+/cXPOoUd3kCV74oh3eAd4jEM1Zl5ycOadeYhk++UgVDTAptzaSeEuVaeT1wD8qp3mxw2UXkNVnXY9uD0bEtg=="
+    ], 
+    "./MANIFEST.in": [
+        "YTUhuNoVK2IXgwJI+cP4BUzbgzMOnHhc40N8Q9cw1rJVtKJq8xlQNaYwxt2Y8p+scpKOU4S445VaPOqWsEF6+Q=="
+    ], 
+    "./README.rst": [
+        "NpInImcdK7HQFLVdzLlDEZbA9uAEZaKM6lTCUCfQi5aOf93nTfnCh9DJp9Dr0ZWsxXLXTQrH3g+rbgh7kRECnA=="
+    ], 
+    "./avatar.png": [], 
+    "./doc/authors.rst": [], 
+    "./doc/conf.py": [
+        "3ZDnZZObrW9hqHeoMihm0AOaQCATOPBNn6ZskE5tw9Hh5r7QP+JtJYwuDvEE2ufp57dI3RV00mgzouezDgEgmA=="
+    ], 
+    "./doc/contributing.rst": [], 
+    "./doc/history.rst": [], 
+    "./doc/index.rst": [], 
+    "./doc/installation.rst": [], 
+    "./doc/make.bat": [
+        "Tk/+eZHH7Ss0u6nDShjeISQZmDwP2+T79T9iaBXwWtSC2AJBYjifliRsFaupRval8lXgd0Jg4jNRMcDOC31oaw=="
+    ], 
+    "./doc/readme.rst": [], 
+    "./doc/usage.rst": [], 
+    "./dvlpt_requirements.txt": [
+        "RfJmqHXsjlfdu623rub6EFuylSzUBrdhTRopfpEbo6dI7BLSsUES+G0dQBiJF2OkdNO3JJOZkMprRmmeIUcwDQ=="
+    ], 
+    "./entry_points.json": [], 
+    "./gallery/Chrysanthemum.png": [], 
+    "./gallery/Desert.png": [], 
+    "./gallery/Jellyfish.png": [], 
+    "./gallery/Koala.png": [], 
+    "./gallery/Penguins.png": [], 
+    "./main_analysis.pnb": [], 
+    "./part1/analysis.pnb": [], 
+    "./part1/analysis2.pnb": [], 
+    "./part1/subpart/subanalysis.pnb": [], 
+    "./requirements.txt": [
+        "AWuoxM/eZa+Zy1+ouKN+Lrc/SBs640mRZm3y4E/rbAOGZuvR7CtvYjlndWAzxwLd5fQj99R6tu0YJ/9TeDcx9w=="
+    ], 
+    "./setup.cfg": [
+        "x3WxeM9WdFZ8JbKX10J2CijWXON3NerDb60N0Rh9AGJqPxwSZ+LMevlxdRFli48mjMN4mY4J3FlMTQMn3LJgKg=="
+    ], 
+    "./setup.py": [
+        "m6deHJuzrjTNAlLMGPACrMBCuSpwMMUwZg51HE34Z1srEL9GG4GzAH/JbQWKLRYdQGP+NqgoDdgS7BZZEPJIAw=="
+    ], 
+    "./src/toto/__init__.py": [
+        "bXi4YRtInDLkaTvGi4V/ZIZpKXGCIgIw/Qm7wX5YZ+tM5kkkAAGCzzuDhxJDzcpoWKBE1UxDj7mT+40YH1DZQA==", 
+        "vmiIOMqGhuXJBom/KrWFzvETfJmbSMcLkvZ6XDTcFWl7XRHJgu1tcb4eHn97TgcziEqpfD96M5qO0DV3z3S+CQ=="
+    ], 
+    "./src/toto/cli.py": [], 
+    "./src/toto/example.py": [], 
+    "./src/toto/version.py": [
+        "9u2W46jEMEMq3ZJFhNBSDLcfV8R73vM1FPWlZz2LsxyOwW1/0fpDM16Yxig6tFhfdhNxz+Qw8gX0btUZqB898w=="
+    ], 
+    "./test/__init__.py": [], 
+    "./test/test_example.py": []
+}

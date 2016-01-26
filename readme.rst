@@ -1,6 +1,18 @@
-====
-Toto
-====
+========================
+toto
+========================
+
+.. {{pkglts doc,
+
+
+
+
+
+
+.. }}
+
+belle petite description
+
 
 .. image:: http://localhost:6543/avatar/project/toto.png
     :alt: project Toto
