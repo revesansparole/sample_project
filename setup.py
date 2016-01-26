@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# {{pkglts pysetup,
+# {{pkglts pysetup.kwds,
+# format setup arguments
 from os import walk
 from os.path import abspath, normpath
 from os.path import join as pj
@@ -32,7 +33,7 @@ with open("src/toto/version.py") as fp:
 
 
 
-setup(
+setup_kwds = dict(
     name='toto',
     version=version["__version__"],
     description=short_descr,
@@ -56,4 +57,10 @@ setup(
     keywords='',
     test_suite='nose.collector',
 )
+# }}
+# change setup_kwds below before the next pkglts tag
+
+# do not change things below
+# {{pkglts pysetup.call,
+setup(**setup_kwds)
 # }}
