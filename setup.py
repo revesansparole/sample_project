@@ -48,17 +48,14 @@ setup_kwds = dict(
     package_dir={'': 'src'},
     install_requires=parse_requirements("requirements.txt"),
     tests_require=parse_requirements("dvlpt_requirements.txt"),
-    entry_points={
-        'console_scripts': [
-            'toto = toto.cli:main',
-        ],
-    },
-
+    entry_points={},
     keywords='',
     test_suite='nose.collector',
 )
 # }}
 # change setup_kwds below before the next pkglts tag
+
+setup_kwds['entry_points']['console_scripts'] = ['toto = toto.cli:main']
 
 # do not change things below
 # {{pkglts pysetup.call,
