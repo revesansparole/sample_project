@@ -1,0 +1,6 @@
+{
+    "function": "read", 
+    "info1": "toto was here", 
+    "module": "testio", 
+    "name": "read"
+}
