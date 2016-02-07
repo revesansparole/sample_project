@@ -1,6 +1,7 @@
 import json
 
 p1 = dict(name="read",
+          category="oanode",
           module="testio",
           function="read",
           info1="toto was here")
