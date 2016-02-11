@@ -7,7 +7,7 @@
     "base": {
         "namespace": null, 
         "owner": "revesansparole", 
-        "pkgname": "toto", 
+        "pkgname": "sample_project", 
         "url": null
     }, 
     "coverage": {}, 

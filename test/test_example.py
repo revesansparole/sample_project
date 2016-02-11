@@ -1,6 +1,6 @@
 from nose import with_setup
 
-from toto import example as ex
+from sample_project import example as ex
 
 
 def setup_module():

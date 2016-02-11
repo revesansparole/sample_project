@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Package toto documentation build configuration file, created by
+# Package sample_project documentation build configuration file, created by
 # sphinx-quickstart on Tue Jul  9 22:26:36 2013.
 #
 # This file is execfile()d with the current directory set to its
@@ -30,9 +30,9 @@ project_root = os.path.dirname(cwd)
 # Insert the project root dir as the first element in the PYTHONPATH.
 # This lets us ensure that the source package is imported, and that its
 # version is used.
-sys.path.insert(0, os.path.join(project_root, os.path.dirname('src/toto')))
+sys.path.insert(0, os.path.join(project_root, os.path.dirname('src/sample_project')))
 
-# import toto as mypkg
+# import sample_project as mypkg
 
 # -- General configuration ---------------------------------------------
 
@@ -56,8 +56,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'toto'
-copyright = u'2015, toto'
+project = u'sample_project'
+copyright = u'2015, sample_project'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -65,7 +65,7 @@ copyright = u'2015, toto'
 
 # find version number in /src/$pkg_pth/version.py
 pkgver = {}
-with open("../src/toto/version.py") as fp:
+with open("../src/sample_project/version.py") as fp:
     exec(fp.read(), pkgver)
 
 # The short X.Y version.
@@ -194,7 +194,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'totodoc'
+htmlhelp_basename = 'sample_projectdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------
@@ -214,8 +214,8 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-    ('index', 'toto.tex',
-     u'toto Documentation',
+    ('index', 'sample_project.tex',
+     u'sample_project Documentation',
      u'revesansparole', 'manual'),
 ]
 
@@ -245,8 +245,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'toto',
-     u'toto Documentation',
+    ('index', 'sample_project',
+     u'sample_project Documentation',
      [u'revesansparole'], 1)
 ]
 
@@ -260,10 +260,10 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'toto',
-     u'toto Documentation',
+    ('index', 'sample_project',
+     u'sample_project Documentation',
      u'revesansparole',
-     'toto',
+     'sample_project',
      'belle petite description',
      'Miscellaneous'),
 ]
