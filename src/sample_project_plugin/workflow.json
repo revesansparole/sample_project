@@ -1,0 +1,5 @@
+{
+    "category": "oaworkflow", 
+    "description": "compare binarization algorithms", 
+    "name": "workflow"
+}

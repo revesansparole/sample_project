@@ -1,7 +1,7 @@
 {
     "category": "oanode", 
+    "description": "toto was here", 
     "function": "read", 
-    "info1": "toto was here", 
     "module": "testio", 
     "name": "read"
 }
