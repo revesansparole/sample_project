@@ -2,9 +2,14 @@ import json
 
 p1 = dict(name="read",
           category="oanode",
-          module="testio",
-          function="read",
-          description="toto was here")
+          description="toto was here",
+          function="testio:read",
+          inputs=[dict(name="in1", interface="IInt",
+                       value="0", descr="counter"),
+                  dict(name="in2", interface="IStr",
+                       value="a", descr="unit")],
+          outputs=[dict(name="ret", interface="IInt",
+                        descr="important result")])
 
 with open("testio.json", 'w') as f:
     json.dump(p1, f, sort_keys=True, indent=4)
