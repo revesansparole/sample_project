@@ -3,6 +3,7 @@ import json
 p1 = dict(name="read",
           category="oanode",
           description="toto was here",
+          author="revesansparole",
           function="testio:read",
           inputs=[dict(name="in1", interface="IInt",
                        value="0", descr="counter"),
