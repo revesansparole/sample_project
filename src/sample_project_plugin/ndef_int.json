@@ -1,0 +1,23 @@
+{
+    "author": "revesansparole", 
+    "category": "oanode", 
+    "description": "Convert number to int", 
+    "function": "testio:int", 
+    "id": 69675288365786439867433142881213312854, 
+    "inputs": [
+        {
+            "descr": "Value to convert", 
+            "interface": "any", 
+            "name": "val", 
+            "value": 0
+        }
+    ], 
+    "name": "int", 
+    "outputs": [
+        {
+            "descr": "input converted to int", 
+            "interface": "IInt", 
+            "name": "ret"
+        }
+    ]
+}

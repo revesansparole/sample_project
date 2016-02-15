@@ -1,0 +1,29 @@
+{
+    "author": "revesansparole", 
+    "category": "oanode", 
+    "description": "add two numbers", 
+    "function": "testio:plus", 
+    "id": 69675288445014602380430280129605889878, 
+    "inputs": [
+        {
+            "descr": "first value", 
+            "interface": "IInt", 
+            "name": "in1", 
+            "value": 0
+        }, 
+        {
+            "descr": "second value", 
+            "interface": "IInt", 
+            "name": "in2", 
+            "value": 0
+        }
+    ], 
+    "name": "plus", 
+    "outputs": [
+        {
+            "descr": "result", 
+            "interface": "IInt", 
+            "name": "ret"
+        }
+    ]
+}

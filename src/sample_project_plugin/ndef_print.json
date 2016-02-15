@@ -1,0 +1,23 @@
+{
+    "author": "revesansparole", 
+    "category": "oanode", 
+    "description": "print value", 
+    "function": "testio:print", 
+    "id": 69675288524242764894441571719086960470, 
+    "inputs": [
+        {
+            "descr": "anything", 
+            "interface": "any", 
+            "name": "in", 
+            "value": ""
+        }
+    ], 
+    "name": "print", 
+    "outputs": [
+        {
+            "descr": "just passing in out", 
+            "interface": "any", 
+            "name": "out"
+        }
+    ]
+}
