@@ -21,9 +21,11 @@ p2 = dict(name="workflow",
           author="revesansparole",
           nodes=[("read", 100, 10),
                  ("node2", 200, 10),
-                 ("node3", 150, 100)],
+                 ("node3", 150, 100),
+                 ("print", 150, 200)],
           connections=[(0, "res", 2, "in1"),
-                       (1, "res", 2, "in2")])
+                       (1, "res", 2, "in2"),
+                       (2, "res", 3, "in")])
 
 
 with open("workflow.json", 'w') as f:

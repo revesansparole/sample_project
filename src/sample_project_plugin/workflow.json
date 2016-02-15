@@ -13,6 +13,12 @@
             "res", 
             2, 
             "in2"
+        ], 
+        [
+            2, 
+            "res", 
+            3, 
+            "in"
         ]
     ], 
     "description": "compare binarization algorithms", 
@@ -32,6 +38,11 @@
             "node3", 
             150, 
             100
+        ], 
+        [
+            "print", 
+            150, 
+            200
         ]
     ]
 }
