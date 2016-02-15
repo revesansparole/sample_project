@@ -3,7 +3,7 @@
     "category": "oanode", 
     "description": "print value", 
     "function": "testio:print", 
-    "id": "aad33df0d42411e59420308d99c16f56", 
+    "id": "bf5dab13d42a11e591e6308d99c16f56", 
     "inputs": [
         {
             "descr": "anything", 

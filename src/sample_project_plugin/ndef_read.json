@@ -3,7 +3,7 @@
     "category": "oanode", 
     "description": "read data from resource", 
     "function": "testio:read", 
-    "id": "aad27aa1d42411e5b669308d99c16f56", 
+    "id": "bf5c2470d42a11e5b47b308d99c16f56", 
     "inputs": [
         {
             "descr": "URL of resource to read", 
