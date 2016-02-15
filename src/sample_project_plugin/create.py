@@ -2,7 +2,7 @@ import json
 from uuid import uuid1
 
 
-n1 = dict(id=uuid1().int,
+n1 = dict(id=uuid1().hex,
           name="read",
           category="oanode",
           description="read data from resource",
@@ -13,7 +13,7 @@ n1 = dict(id=uuid1().int,
           outputs=[dict(name="ret", interface="any",
                         descr="red data")])
 
-n2 = dict(id=uuid1().int,
+n2 = dict(id=uuid1().hex,
           name="int",
           category="oanode",
           description="Convert number to int",
@@ -24,7 +24,7 @@ n2 = dict(id=uuid1().int,
           outputs=[dict(name="ret", interface="IInt",
                         descr="input converted to int")])
 
-n3 = dict(id=uuid1().int,
+n3 = dict(id=uuid1().hex,
           name="plus",
           category="oanode",
           description="add two numbers",
@@ -37,7 +37,7 @@ n3 = dict(id=uuid1().int,
           outputs=[dict(name="ret", interface="IInt",
                         descr="result")])
 
-n4 = dict(id=uuid1().int,
+n4 = dict(id=uuid1().hex,
           name="print",
           category="oanode",
           description="print value",
@@ -53,7 +53,7 @@ for ndef in (n1, n2, n3, n4):
     with open("ndef_%s.json" % ndef["name"], 'w') as f:
         json.dump(ndef, f, sort_keys=True, indent=4)
 
-wkf = dict(id=uuid1().int,
+wkf = dict(id=uuid1().hex,
            name="workflow",
            category="oaworkflow",
            description="compare binarization algorithms",
