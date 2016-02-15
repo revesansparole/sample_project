@@ -1,5 +1,37 @@
 {
+    "author": "revesansparole", 
     "category": "oaworkflow", 
+    "connections": [
+        [
+            0, 
+            "res", 
+            2, 
+            "in1"
+        ], 
+        [
+            1, 
+            "res", 
+            2, 
+            "in2"
+        ]
+    ], 
     "description": "compare binarization algorithms", 
-    "name": "workflow"
+    "name": "workflow", 
+    "nodes": [
+        [
+            "read", 
+            100, 
+            10
+        ], 
+        [
+            "node2", 
+            200, 
+            10
+        ], 
+        [
+            "node3", 
+            150, 
+            100
+        ]
+    ]
 }
