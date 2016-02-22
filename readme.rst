@@ -14,9 +14,9 @@ toto
 belle petite description
 
 
-.. image:: http://localhost:6543/avatar/project/toto.png
+.. image:: http://localhost:6543/avatar/project/sample_project.png
     :alt: project Toto
-    :target: http://localhost:6543/project/toto/home
+    :target: http://localhost:6543/project/sample_project/home
 
 .. image:: http://localhost:6543/avatar/team/openalea.png
     :alt: Team OpenAlea
