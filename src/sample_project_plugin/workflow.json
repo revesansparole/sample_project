@@ -22,29 +22,29 @@
         ]
     ], 
     "description": "compare binarization algorithms", 
-    "id": "bf5dab14d42a11e5865e308d99c16f56", 
+    "id": "53f5fdc0d94111e5a339308d99c16f56", 
     "name": "workflow", 
     "nodes": [
         {
-            "id": "bf5c2470d42a11e5b47b308d99c16f56", 
+            "id": "53f49e30d94111e5926e308d99c16f56", 
             "label": null, 
             "x": 100, 
             "y": 10
         }, 
         {
-            "id": "bf5dab11d42a11e5a57c308d99c16f56", 
+            "id": "53f5888fd94111e5bb8a308d99c16f56", 
             "label": "node2", 
             "x": 200, 
             "y": 10
         }, 
         {
-            "id": "bf5dab12d42a11e5bb81308d99c16f56", 
+            "id": "53f58890d94111e5b8f3308d99c16f56", 
             "label": null, 
             "x": 150, 
             "y": 100
         }, 
         {
-            "id": "bf5dab13d42a11e591e6308d99c16f56", 
+            "id": "53f58891d94111e5ab5e308d99c16f56", 
             "label": null, 
             "x": 150, 
             "y": 200

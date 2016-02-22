@@ -3,7 +3,7 @@
     "category": "oanode", 
     "description": "add two numbers", 
     "function": "testio:plus", 
-    "id": "bf5dab12d42a11e5bb81308d99c16f56", 
+    "id": "53f58890d94111e5b8f3308d99c16f56", 
     "inputs": [
         {
             "descr": "first value", 
