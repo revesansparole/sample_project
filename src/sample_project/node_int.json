@@ -1,0 +1,23 @@
+{
+  "id": "ba0787a1da2c11e59fa5ace010ea24cf",
+  "name": "int",
+  "author": "revesansparole",
+  "version":0,
+  "description": "Cast/parse data to int",
+  "function": "testio:int",
+  "inputs": [
+    {
+      "name": "in",
+      "interface": "IAny",
+      "description": "Any data",
+      "default": "0"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret",
+      "interface": "IInt",
+      "description": "casted integer"
+    }
+  ]
+}
