@@ -1,0 +1,11 @@
+{
+  "id": "IURL",
+  "name": "url",
+  "author": "revesansparole",
+  "version": 0,
+  "description": "Url type of data",
+  "schema": {
+    "type": "string"
+  },
+  "ancestors": []
+}
