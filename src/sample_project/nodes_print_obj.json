@@ -1,0 +1,23 @@
+{
+  "function": "sample_project.nodes:print_obj", 
+  "inputs": [
+    {
+      "interface": "any", 
+      "default": "None", 
+      "description": "anything with a string representation", 
+      "name": "x"
+    }
+  ], 
+  "description": "Print its parameter.\n\n    __plugin__: node\n\n    Args:\n        x: (any) anything with a string representation\n\n    Returns:\n        (str) string representation of parameter\n    ", 
+  "author": "unknown", 
+  "outputs": [
+    {
+      "interface": "str", 
+      "description": "string representation of parameter", 
+      "name": "ret"
+    }
+  ], 
+  "version": 0, 
+  "id": "4677912edbdb11e58c16ace010ea24cf", 
+  "name": "print_obj"
+}

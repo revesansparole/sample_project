@@ -1,0 +1,23 @@
+{
+  "function": "sample_project.nodes:int_cast", 
+  "inputs": [
+    {
+      "interface": "any", 
+      "default": "0", 
+      "description": "anything that valuate to an integer", 
+      "name": "a"
+    }
+  ], 
+  "description": "Cast value to int type.\n\n    __plugin__: node\n\n    Args:\n        a: (any) anything that valuate to an integer\n\n    Returns:\n        (int) integer value of parameter\n    ", 
+  "author": "unknown", 
+  "outputs": [
+    {
+      "interface": "int", 
+      "description": "integer value of parameter", 
+      "name": "ret"
+    }
+  ], 
+  "version": 0, 
+  "id": "467435d1dbdb11e599adace010ea24cf", 
+  "name": "int_cast"
+}

@@ -1,0 +1,29 @@
+{
+  "function": "sample_project.nodes:plus", 
+  "inputs": [
+    {
+      "interface": "int", 
+      "default": "0", 
+      "description": "left operand", 
+      "name": "a"
+    }, 
+    {
+      "interface": "int", 
+      "default": "0", 
+      "description": "right operand", 
+      "name": "b"
+    }
+  ], 
+  "description": "Add two numbers together\n\n    __plugin__: node\n\n    Args:\n        a: (int) left operand\n        b: (int) right operand\n\n    Returns:\n        (int) result of addition\n    ", 
+  "author": "unknown", 
+  "outputs": [
+    {
+      "interface": "int", 
+      "description": "result of addition", 
+      "name": "ret"
+    }
+  ], 
+  "version": 0, 
+  "id": "4675bc70dbdb11e5b310ace010ea24cf", 
+  "name": "plus"
+}

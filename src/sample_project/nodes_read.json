@@ -1,0 +1,23 @@
+{
+  "function": "sample_project.nodes:read", 
+  "inputs": [
+    {
+      "interface": "url", 
+      "default": "", 
+      "description": "path to resource", 
+      "name": "url"
+    }
+  ], 
+  "description": "Read and return content of resource\n\n    __plugin__: node\n\n    Args:\n        url: (url) path to resource\n\n    Returns:\n        (str) content of resource\n    ", 
+  "author": "unknown", 
+  "outputs": [
+    {
+      "interface": "str", 
+      "description": "content of resource", 
+      "name": "ret"
+    }
+  ], 
+  "version": 0, 
+  "id": "46793ee1dbdb11e5bd1eace010ea24cf", 
+  "name": "read"
+}
