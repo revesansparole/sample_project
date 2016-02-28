@@ -34,12 +34,19 @@
       "label": "last print",
       "x": 0,
       "y": 80
+    },
+    {
+      "id": "4677912edbdb11e58c16ace010ea24cf",
+      "label": "failed print",
+      "x": 0,
+      "y": 160
     }
   ],
   "links": [
     [0, "ret", 1, "a"],
     [1, "ret", 3, "a"],
     [2, "ret", 3, "b"],
-    [3, "ret", 4, "x"]
+    [3, "ret", 4, "x"],
+    [4, "ret", 5, "x"]
   ]
 }
