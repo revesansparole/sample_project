@@ -14,7 +14,7 @@ def int_cast(a=0):
 
 
 def plus(a=0, b=0):
-    """Add two numbers together
+    """Add two numbers together.
 
     __plugin__: node
 

@@ -14,7 +14,7 @@
       "name": "b"
     }
   ], 
-  "description": "Add two numbers together\n\n    __plugin__: node\n\n    Args:\n        a: (int) left operand\n        b: (int) right operand\n\n    Returns:\n        (int) result of addition\n    ", 
+  "description": "Add two numbers together.\n\n    __plugin__: node\n\n    Args:\n        a: (int) left operand\n        b: (int) right operand\n\n    Returns:\n        (int) result of addition\n    ", 
   "author": "unknown", 
   "outputs": [
     {
